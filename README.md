@@ -6,10 +6,11 @@
 - [x] Barka music
 - [x] Jan Pawel 2 mem
 - [x] Mouse & Keyboard lock for 65seconds
+- [x] MsgBox InsertKremówka
 - [x] Jan Pawel 2 barka vixa 10h edition  
+- [x] WatchDog exit protection
 - [ ] Screen shaker
 - [ ] Autorun 21:37
-- [ ] MsgBox InsertKremówka
 - [ ] Eject CDrom
 
 # Feel free to fork
