@@ -15,3 +15,15 @@
 
 # Feel free to fork
 # Leave a Star <3
+
+
+# Note about thet project
+
+- It shouldn't be malcious
+- Programmer doesn't take responsibility for your PC
+- My version of Papiezak is safe
+- If you don't trust me run that in VM
+- Have fun with that
+- Make some functions to that
+- Share that with friend
+- Keep it 21:37 
