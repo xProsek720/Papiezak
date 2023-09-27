@@ -1,7 +1,7 @@
-### Papiezak 2023
-# new watykanczyk
+# Papiezak 2023
+## new watykanczyk
 
-# Making project of new Watykanczyk Virus
+### Making project of new Watykanczyk Virus
 
 - [x] Barka music
 - [x] Jan Pawel 2 mem
@@ -13,11 +13,11 @@
 - [ ] Autorun 21:37
 - [ ] Eject CDrom
 
-# Feel free to fork
-# Leave a Star <3
+### Feel free to fork
 
+### and Leave a Star <3
 
-# Note about thet project
+### Note about thet project
 
 - It shouldn't be malcious
 - Programmer doesn't take responsibility for your PC
