@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Papiezak"
         mc:Ignorable="d"
-        Title="Jan Paweł 2 Gra Mojego Dzieciństwa" Height="420" Width="860">
+        Title="Jan Paweł 2 Gra Mojego Dzieciństwa" Height="420" Width="860"
+        Closing="Window_Closing">
     <Grid>
         <TextBlock Name="opis" Margin="50, 20, 50, 340" TextAlignment="Center" Height="20">Jan Paweł 2 Gra Mojego Dzieciństwa Setup:</TextBlock>
         <ScrollViewer x:Name="scrollView" VerticalScrollBarVisibility="Hidden">

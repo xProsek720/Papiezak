@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Windows;
 using System.Windows.Threading;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Papiezak
 {
@@ -17,11 +18,13 @@ namespace Papiezak
         System.Windows.Controls.ProgressBar progressBar;
         System.Windows.Controls.ScrollViewer scrollViewer;
         private int _progressCount;
+        public bool done {  get; private set; }
         public fejkProgress(System.Windows.Controls.ProgressBar progressBar, System.Windows.Controls.TextBlock setupInfo, System.Windows.Controls.ScrollViewer scrollViewer) 
         {
             this.progressBar = progressBar;
             this.setupInfo = setupInfo;
             this.scrollViewer = scrollViewer;
+            this.done = false;
             _timer = new DispatcherTimer();
             _random = new Random();
             _timer.Interval = TimeSpan.FromMilliseconds(100); // Adjust for faster/slower progress
@@ -70,9 +73,11 @@ namespace Papiezak
                 _timer.Stop();
                 setupInfo.Text += ("Installation complete!");
                 MessageBox.Show("Progress completed!");
+                this.done = true;
             }
             scrollViewer.ScrollToHorizontalOffset(scrollViewer.ExtentHeight);
         }
+
     }
 
 }
